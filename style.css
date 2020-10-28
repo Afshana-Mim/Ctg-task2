@@ -1,0 +1,142 @@
+/* css for admin login */
+
+* {
+    margin: 0px;
+}
+
+body {}
+
+#admin {
+    padding: 5%;
+    background: url(/img/bgPic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#registration {
+    padding: 5%;
+    background: url(/img/reg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#reset {
+    padding: 5%;
+    background: url(/img/reset.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.submit-buttonRP {
+    width: 150px;
+    display: block;
+    transition: 1s;
+    margin: 0 auto;
+    border-radius: 5px;
+    transition: 0.8 ease-in-out;
+    -webkit-transition: 0.8 ease-in-out;
+    -moz-transition: 0.8 ease-in-out;
+    -o-transition: 0.8 ease-in-out;
+}
+
+.submit-buttonRP:hover {
+    background: #517aea;
+    color: white;
+    box-shadow: 1px 2px 3px #ffff;
+    cursor: pointer;
+}
+
+.gender {
+    margin: 0 15px 0 0;
+    color: white;
+}
+
+h2 {
+    color: black;
+}
+
+.container {
+    display: block;
+    padding: 5%;
+    width: 30%;
+    margin: 10% auto;
+    text-align: center;
+    background-image: linear-gradient(to right bottom, rgba(237, 132, 28, 0.5), rgba(103, 82, 60, 0.5));
+}
+
+.myform {
+    padding: 5%;
+}
+
+.form-control {
+    width: 80%;
+    background-color: transparent;
+    padding: 2%;
+    margin: 1% auto;
+    border-radius: 1em;
+    border-color: white;
+    color: white;
+    transition: .4s;
+}
+
+::placeholder {
+    color: white;
+}
+
+.image-section {
+    text-align: center;
+}
+
+.submit-button {
+    padding: 1%;
+    width: 100px;
+    background-color: transparent;
+    border-radius: 1em;
+    border-color: white;
+    color: white;
+    transition: .2s;
+}
+
+.form-control:hover,
+.submit-button:hover {
+    transform: scale(1.1);
+    background-color: white;
+    color: black;
+}
+
+.btn {
+    text-decoration: none;
+    border: 1px solid white;
+}
+
+
+/*
+  
+.button-control {
+    width: 10%;
+    height: 25px;
+    padding: 5px;
+    margin: 5% 0px 0.3% 45%;
+}
+
+.login-btn {
+    background: darkred;
+    text-transform: uppercase;
+    color: #ffff;
+    padding: 10px 30px;
+    border: none;
+    margin: 0px auto;
+    display: block;
+    transition: 0.8 ease-in-out;
+    -webkit-transition: 0.8 ease-in-out;
+    -moz-transition: 0.8 ease-in-out;
+    -o-transition: 0.8 ease-in-out;
+}
+
+.login-btn:hover {
+    box-shadow: 1px 2px 3px #ffff;
+    cursor: pointer;
+}*/
+
+
+/* css for reg */
