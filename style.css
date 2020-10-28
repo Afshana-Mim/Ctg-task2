@@ -8,21 +8,21 @@ body {}
 
 #admin {
     padding: 5%;
-    background: url(/img/bgPic.jpg);
+    background: url(img/bgPic.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #registration {
     padding: 5%;
-    background: url(/img/reg.jpg);
+    background: url(img/reg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #reset {
     padding: 5%;
-    background: url(/img/reset.jpg);
+    background: url(img/reset.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
